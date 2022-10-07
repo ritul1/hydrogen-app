@@ -15,14 +15,10 @@ export function Hero({
 }) {
   return (
     <Link to={`/collections/${handle}`}>
-      <section
+      <section style={{height:"450px"}}
         className={`relative justify-end flex flex-col w-full ${
           top && '-mt-nav'
-        } ${
-          height === 'full'
-            ? 'h-screen'
-            : 'aspect-[4/5] sm:aspect-square md:aspect-[5/4] lg:aspect-[3/2] xl:aspect-[2/1]'
-        }`}
+        } `}
       >
         <div className="absolute inset-0 grid flex-grow grid-flow-col pointer-events-none auto-cols-fr -z-10 content-stretch overflow-clip">
           {spread?.reference && (
