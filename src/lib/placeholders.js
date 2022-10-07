@@ -14,11 +14,11 @@ const PLACEHOLDERS = {
           mediaContentType: 'IMAGE',
           alt: 'Tracks in the snow leading to a person on a mountain top with a red jacket contrasting to an epic blue horizon with a mountain range in the distance.',
           previewImage: {
-            url: 'https://media.istockphoto.com/photos/luxury-clothing-store-with-clothes-shoes-and-other-personal-picture-id1308246727',
+            url: 'https://tecnics.com/wp-content/uploads/2020/03/retail-ecommerce-banner.jpg',
           },
           id: 'gid://shopify/MediaImage/29259478466616',
           image: {
-            url: 'https://media.istockphoto.com/photos/luxury-clothing-store-with-clothes-shoes-and-other-personal-picture-id1308246727',
+            url: 'https://tecnics.com/wp-content/uploads/2020/03/retail-ecommerce-banner.jpg',
             width: 2500,
             height: 3155,
           },
