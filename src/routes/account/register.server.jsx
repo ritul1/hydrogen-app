@@ -43,7 +43,6 @@ export async function api(request, {queryShop}) {
   });
 
   const errorMessage = getApiErrorMessage('customerCreate', data, errors);
-
   if (
     !errorMessage &&
     data &&

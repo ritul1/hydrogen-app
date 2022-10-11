@@ -172,6 +172,7 @@ function DesktopHeader({countryCode, isHome, menu, openCart, title}) {
             <IconSearch />
           </button>
         </form>
+        <Link to={'/account/contact'}>contact</Link>
         <Link to={'/account'} className={styles.button}>
           <IconAccount />
         </Link>
